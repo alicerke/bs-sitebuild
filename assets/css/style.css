@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.catamaranFont {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.latoFont {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.mulishFont {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.btnHeader {
+    border: 1 px solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.btnHeader:hover {
+    transition: 0.3s;
+    background-color: #fdcc52;
+    color: white;
+}
+
+header {
+    background-image: url("/assets/img/bg-pattern.png"),
+        linear-gradient(to right, #da2431, #800080);
+}
+
+.textWhite {
+    color: #fff;
+}
+
+.imgMobil {
+    max-width: 300px;
+    height: 600px;
+    background-image: url("/assets/img/demo-screen-1.jpg"), url("/assets/img/phone.png");
+    background-size: 90%, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+
+.navDownload {
+    background-color: #fdc844;
+}
+
+.brand--color {
+    color: #fdcc52 !important;
+}
+
+.brand--color:hover {
+    color: #fff !important;
+}
+
+.icon {
+    font-size: 5rem;
+    color: #ae3361;
+}
+
+.imgDown {
+    width: 150px;
+    height: auto;
+}
+
+.min-height-70 {
+    min-height: 100vh;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.opacity {
+    height: 100%;
+    width: auto;
+    opacity: 0.5;
+}
+
+.btnColor:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+@media screen and (min-width: 992px) {
+    .opacity {
+        top: -40%;
+        height: auto;
+        width: 120%;
+        opacity: 0.5;
+    }
+}
+
+.bg-lightblue {
+    background-color: rgb(29, 161, 242, .9);
+}
+
+.bg-lightblue:hover {
+    background-color: rgb(29, 161, 242, 1);
+}
+
+.bg-blue {
+    background-color: rgb(59, 89, 152, .9);
+}
+
+.bg-blue:hover {
+    background-color: rgb(59, 89, 152, 1);
+}
+
+.bg-red {
+    background-color: rgb(221, 75, 57, .9);
+}
+
+.bg-red:hover {
+    background-color: rgb(221, 75, 57, 1);
+}
+
+.bg-yellow {
+    background-color: #fdc63e;
+}
+
+.circle-button {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border-radius: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.bgDark {
+    background-color: #222222;
+    color: rgba(255, 255, 255, .2);
+    font-size: .7rem;
+    letter-spacing: .05rem;
+    font-family: 'Lato', Helvetica, Arial, sans-serif !important;
+}
+
+.bgDark p {
+    color: rgba(255, 255, 255, .2);
+}
+
+.bgDark a {
+    color: rgba(255, 255, 255, .2);
+    cursor: pointer;
+}
+
+.bgDark a:hover {
+    color: #fdcc52;
+}
